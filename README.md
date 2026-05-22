@@ -1,20 +1,82 @@
-# Apex Advisory — Feedback Website
+# Apex Advisory
 
-A simple two-page feedback website built with HTML and Tailwind CSS.
+A clean, responsive two-page feedback platform built for **Apex Advisory** — a financial and strategic consulting firm dedicated to helping businesses grow, scale and make smarter decisions. Apex Advisory works with clients across a range of industries, offering expert guidance in areas such as business strategy, financial planning and operational efficiency.
+
+The platform was built to give Apex Advisory a simple and professional way to collect customer feedback. Rather than relying on scattered reviews across WhatsApp or Google, clients can visit a dedicated page, leave a star rating and write a comment in under 30 seconds. The business owner can then log into a private dashboard to view all reviews, track the average rating and monitor how many responses have been positive — all in one place.
+
+---
+
+## Overview
+
+Most small businesses have no centralized place to collect and read customer feedback. Reviews get lost on WhatsApp, Google, or never get left at all. This platform solves that by giving customers a dedicated, easy-to-use form and giving the business owner a clean dashboard to track it all in one place.
+
+---
 
 ## Pages
 
-- **index.html** — Customer feedback form where users can leave their name, rating and a comment
-- **dashboard.html** — Business dashboard showing all reviews and stats
+| Page | File | Description |
+|---|---|---|
+| Customer Form | `index.html` | Customers leave their name, star rating and written feedback |
+| Business Dashboard | `dashboard.html` | Displays all reviews, average rating, total reviews and positive percentage |
+
+---
 
 ## Built With
 
-- HTML
-- Tailwind CSS
+- **HTML5** — semantic page structure
+- **Tailwind CSS** — utility-first CSS framework for styling and responsive design
 
-## How It Works
+---
 
-1. Customer visits the feedback form
-2. They fill in their name, select a rating and write a comment
-3. They click submit and are taken to the dashboard
-4. The business owner can see all reviews and stats on the dashboard
+## Features
+
+- Clean, minimal customer feedback form
+- Star rating display
+- Business dashboard with key stats — average rating, total reviews, positive percentage
+- Responsive design — works on mobile, tablet and desktop
+- Navigation between pages using anchor links
+
+---
+
+## Responsive Design
+
+The site is built mobile-first using Tailwind CSS breakpoints:
+
+- **Mobile** — single column layout, full width form
+- **Tablet** — wider card with more padding
+- **Desktop** — centered content with max width container
+
+---
+
+## Project Structure
+apex-feedback/
+├── index.html        # Customer feedback form
+├── dashboard.html    # Business reviews dashboard
+└── README.md         # Project documentation
+
+---
+
+## Getting Started
+
+To run this project locally:
+
+1. Clone the repository
+```bash
+git clone https://github.com/tuhamaina-blip/apex-feedback.git
+```
+
+2. Open the project folder
+```bash
+cd apex-feedback
+```
+
+3. Open `index.html` in your browser — no installs or setup needed
+
+---
+
+## Future Improvements
+
+- Add a database to store real submitted reviews
+- Make the star rating interactive
+- Add a login page to protect the business dashboard
+- Send an email notification when a new review is submitted
