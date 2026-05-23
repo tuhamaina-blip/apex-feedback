@@ -5,17 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Apex Advisory - Leave Feedback</title>
      <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+     <style>
+    input[type="radio"]:checked ~ label {
+        color: #facc15;
+    }
+</style>
 </head>
-<body class="bg-gray-200 min-h-screen flex flex-col items-center -justify-center px-4 py-10">
+<body class="bg-gray-200 min-h-screen flex flex-col items-center justify-center px-4 py-10">
     <!-- Text at the top -->
      <div class="text-center mb-6">
-        <p class="text-sm text-orange-500 font-semibold uppercase tracking-wiidest mb-2">Apex Advisory</p>
-        <h1 class="text-3xl font-bold text-gray-800">How was your experience </h1>
+        <p class="text-sm text-orange-500 font-semibold uppercase tracking-widest mb-2">Apex Advisory</p>
+        <h1 class="text-3xl font-bold text-gray-800">How was your experience? </h1>
         <p class=" text-sm text-gray-600 mt-1">Takes 30 seconds</p>
      </div>
 
      <!-- Form card -->
-      <div class=" bg-white rounded-2xl shadow p-6 w-full max-w-md">
+      <div class="bg-white rounded-2xl shadow p-6 w-full max-w-md">
 
         <!-- Name -->
          <div class="mb-4">
@@ -24,11 +29,28 @@
             class="text-sm w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:border-orange-500 focus:ring-2 focus:ring-orange-500"> 
          </div>
 
-         <!-- Rating -->
+        <!-- Rating -->
           <div class="mb-4">
-            <label class="block text-sm font-semibold text-gray-800 mb-1">Rating</label>
-            <p class="text-yellow-500 text-3xl tracking-wiidest">★★★★★</p>
+            <label class="block text-sm font-semibold text-gray-700 mb-2">Rating</label>
+            <div class="flex flex-row-reverse justify-end gap-1">
+
+            <input type="radio" name="rating" id="star5" class="hidden">
+            <label for="star5" class="text-3xl cursor-pointer text-gray-300 hover:text-yellow-400">★</label>
+
+            <input type="radio" name="rating" id="star4" class="hidden">
+            <label for="star4" class="text-3xl cursor-pointer text-gray-300 hover:text-yellow-400">★</label>
+
+            <input type="radio" name="rating" id="star3" class="hidden">
+            <label for="star3" class="text-3xl cursor-pointer text-gray-300 hover:text-yellow-400">★</label>
+
+            <input type="radio" name="rating" id="star2" class="hidden">
+            <label for="star2" class="text-3xl cursor-pointer text-gray-300 hover:text-yellow-400">★</label>
+
+            <input type="radio" name="rating" id="star1" class="hidden">
+            <label for="star1" class="text-3xl cursor-pointer text-gray-300 hover:text-yellow-400">★</label>
+
           </div>
+        </div>
 
         <!-- Feedback -->
        <div class="mb-6">
@@ -39,19 +61,16 @@
 
        <!-- Submit button -->
         <a href="thankyou.html"
-        class="block text-sm text-white w-fit mx-auto font-semibold bg-gray-700 hover:bg-gray-600 px-4 py-6 mt-1 rounded-2xl"
+        class="block text-sm text-white w-fit mx-auto font-semibold bg-gray-700 hover:bg-gray-600 px-4 py-3 mt-1 rounded-2xl"
         >Submit feedback</a>
 
       </div>
 
       <!-- Link to dashboard -->
-       <div class="mt-6">
+      <div class="mt-6">
         <a href="dashboard.html"
         class="text-sm text-gray-500 underline hover:text-gray-600">Business dashboard</a>
-       </div>
-
-       
-
+      </div>
 
 </body>
 </html>
