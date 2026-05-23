@@ -17,6 +17,7 @@ Most small businesses have no centralized place to collect and read customer fee
 | Page | File | Description |
 |---|---|---|
 | Customer Form | `index.html` | Customers leave their name, star rating and written feedback |
+| Thank You | `thankyou.html` | Confirmation screen shown after submitting feedback |
 | Business Dashboard | `dashboard.html` | Displays all reviews, average rating, total reviews and positive percentage |
 
 ---
@@ -49,10 +50,14 @@ The site is built mobile-first using Tailwind CSS breakpoints:
 ---
 
 ## Project Structure
+
+```
 apex-feedback/
 ├── index.html        # Customer feedback form
+├── thankyou.html     # Thank you confirmation screen
 ├── dashboard.html    # Business reviews dashboard
 └── README.md         # Project documentation
+```
 
 ---
 
