@@ -1,6 +1,6 @@
 # Apex Advisory
 
-A clean, responsive two-page feedback platform built for **Apex Advisory** — a financial and strategic consulting firm dedicated to helping businesses grow, scale and make smarter decisions. Apex Advisory works with clients across a range of industries, offering expert guidance in areas such as business strategy, financial planning and operational efficiency.
+A clean, responsive feedback platform built for **Apex Advisory** — a financial and strategic consulting firm dedicated to helping businesses grow, scale and make smarter decisions. Apex Advisory works with clients across a range of industries, offering expert guidance in areas such as business strategy, financial planning and operational efficiency.
 
 The platform was built to give Apex Advisory a simple and professional way to collect customer feedback. Rather than relying on scattered reviews across WhatsApp or Google, clients can visit a dedicated page, leave a star rating and write a comment in under 30 seconds. The business owner can then log into a private dashboard to view all reviews, track the average rating and monitor how many responses have been positive — all in one place.
 
