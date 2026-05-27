@@ -82,6 +82,5 @@ cd apex-feedback
 ## Future Improvements
 
 - Add a database to store real submitted reviews
-- Make the star rating interactive
 - Add a login page to protect the business dashboard
 - Send an email notification when a new review is submitted
