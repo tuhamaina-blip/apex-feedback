@@ -3,82 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Apex Advisory - Leave Feedback</title>
-     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-     <style>
-    input[type="radio"]:checked ~ label {
-        color: #facc15;
-    }
-</style>
+    <title>Apex Advisory — Home</title>
+    <meta name="description" content="Apex Advisory is a financial and strategic consulting firm helping businesses grow and make smarter decisions.">
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
-<body class="bg-gray-200 min-h-screen flex flex-col items-center justify-center px-4 py-10">
-  <div class="bg-white border-b border-gray-200 px-6 py-4 flex items-center justify-between w-full">
-    <h1 class="font-bold text-gray-800">Apex Advisory</h1>
-    <div class="flex gap-4">
-        <a href="index.html" class="text-sm text-orange-500 font-semibold">Home</a>
-        <a href="about.html" class="text-sm text-gray-500 hover:text-gray-800">About</a>
-        <a href="contact.html" class="text-sm text-gray-500 hover:text-gray-800">Contact</a>
-    </div>
-</div>
-    <!-- Text at the top -->
-     <div class="text-center mb-6">
-        <p class="text-sm text-orange-500 font-semibold uppercase tracking-widest mb-2">Apex Advisory</p>
-        <h1 class="text-3xl font-bold text-gray-800">How was your experience? </h1>
-        <p class=" text-sm text-gray-600 mt-1">Takes 30 seconds</p>
-     </div>
+<body class="bg-gray-100 min-h-screen">
 
-     <!-- Form card -->
-      <div class="bg-white rounded-2xl shadow p-6 w-full max-w-md">
-
-        <!-- Name -->
-         <div class="mb-4">
-            <label class="block text-sm font-semibold text-gray-800 mb-1">Your Name</label>
-            <input type="text" placeholder="Jane Doe"
-            class="text-sm w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:border-orange-500 focus:ring-2 focus:ring-orange-500"> 
-         </div>
-
-        <!-- Rating -->
-          <div class="mb-4">
-            <label class="block text-sm font-semibold text-gray-700 mb-2">Rating</label>
-            <div class="flex flex-row-reverse justify-end gap-1">
-
-            <input type="radio" name="rating" id="star5" class="hidden">
-            <label for="star5" class="text-3xl cursor-pointer text-gray-300 hover:text-yellow-400">★</label>
-
-            <input type="radio" name="rating" id="star4" class="hidden">
-            <label for="star4" class="text-3xl cursor-pointer text-gray-300 hover:text-yellow-400">★</label>
-
-            <input type="radio" name="rating" id="star3" class="hidden">
-            <label for="star3" class="text-3xl cursor-pointer text-gray-300 hover:text-yellow-400">★</label>
-
-            <input type="radio" name="rating" id="star2" class="hidden">
-            <label for="star2" class="text-3xl cursor-pointer text-gray-300 hover:text-yellow-400">★</label>
-
-            <input type="radio" name="rating" id="star1" class="hidden">
-            <label for="star1" class="text-3xl cursor-pointer text-gray-300 hover:text-yellow-400">★</label>
-
-          </div>
+    <!-- Nav -->
+    <div class="bg-white border-b border-gray-200 px-6 py-4 flex items-center justify-between">
+        <h1 class="font-bold text-gray-800">Apex Advisory</h1>
+        <div class="flex gap-4">
+            <a href="home.html" class="text-sm text-orange-500 font-semibold">Home</a>
+            <a href="about.html" class="text-sm text-gray-500 hover:text-gray-800">About</a>
+            <a href="contact.html" class="text-sm text-gray-500 hover:text-gray-800">Contact</a>
         </div>
+    </div>
 
-        <!-- Feedback -->
-       <div class="mb-6">
-        <label class="block text-sm font-semibold text-gray-800 mb-1">Your Feedback</label>
-        <textarea placeholder="Really helpful team, fast response..."
-        class="text-sm w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:border-orange-500 focus:ring-2 focus:ring-orange-500 h-28 resize-none"></textarea>
-       </div>
+    <!-- Hero -->
+    <div class="bg-gray-900 px-6 py-24 text-center">
+        <p class="text-sm text-orange-500 font-semibold uppercase tracking-widest mb-4">Welcome to Apex Advisory</p>
+        <h2 class="text-4xl font-bold text-white mb-4">Helping businesses grow,<br>scale and make smarter decisions</h2>
+        <p class="text-gray-400 text-sm max-w-lg mx-auto mb-8">We work with clients across a range of industries offering expert guidance in business strategy, financial planning and operational efficiency.</p>
+        <div class="flex gap-4 justify-center">
+            <a href="home.html" class="bg-orange-500 text-white px-6 py-3 rounded-lg text-sm font-semibold hover:bg-orange-600">Leave Feedback</a>
+            <a href="about.html" class="bg-white text-gray-800 px-6 py-3 rounded-lg text-sm font-semibold hover:bg-gray-100">Learn More</a>
+        </div>
+    </div>
 
-       <!-- Submit button -->
-        <a href="thankyou.html"
-        class="block text-sm text-white w-fit mx-auto font-semibold bg-gray-700 hover:bg-gray-600 px-4 py-3 mt-1 rounded-2xl"
-        >Submit feedback</a>
+    <!-- What we do -->
+    <div class="max-w-4xl mx-auto px-6 py-16">
+        <h3 class="text-2xl font-bold text-gray-800 text-center mb-2">What we do</h3>
+        <p class="text-gray-500 text-sm text-center mb-10">Expert guidance across three core areas</p>
 
-      </div>
+        <div class="grid grid-cols-1 gap-6">
 
-      <!-- Link to dashboard -->
-      <div class="mt-6">
-        <a href="dashboard.html"
-        class="text-sm text-gray-500 underline hover:text-gray-600">Business dashboard</a>
-      </div>
+            <div class="bg-white rounded-2xl shadow p-6 flex gap-4">
+                <div>
+                    <h4 class="font-bold text-gray-800 mb-1">Financial Planning</h4>
+                    <p class="text-gray-500 text-sm">We help businesses plan their finances, manage budgets and make smart investment decisions for long term growth.</p>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-2xl shadow p-6 flex gap-4">
+                <div>
+                    <h4 class="font-bold text-gray-800 mb-1">Business Strategy</h4>
+                    <p class="text-gray-500 text-sm">From market entry to scaling operations, we provide strategic advice that helps businesses grow confidently.</p>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-2xl shadow p-6 flex gap-4">
+                <div>
+                    <h4 class="font-bold text-gray-800 mb-1">Operational Efficiency</h4>
+                    <p class="text-gray-500 text-sm">We identify bottlenecks, streamline processes and help your team work smarter — not harder.</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- CTA -->
+    <div class="bg-orange-500 px-6 py-16 text-center">
+        <h3 class="text-2xl font-bold text-white mb-2">Ready to work with us?</h3>
+        <p class="text-orange-100 text-sm mb-6">Get in touch and let us know how we can help.</p>
+        <a href="contact.html" class="bg-white text-orange-500 px-6 py-3 rounded-lg text-sm font-semibold hover:bg-gray-100">Contact Us</a>
+    </div>
+
+<!-- Footer -->
+    <div class="bg-gray-900 px-6 py-8 text-center">
+        <p class="text-gray-500 text-sm">2026 Apex Advisory. All rights reserved.</p>
+        <div class="flex gap-6 justify-center mt-3">
+            <a href="index.html" class="text-gray-500 text-sm hover:text-white">Home</a>
+            <a href="about.html" class="text-gray-500 text-sm hover:text-white">About</a>
+            <a href="home.html" class="text-gray-500 text-sm hover:text-white">Feedback</a>
+            <a href="contact.html" class="text-gray-500 text-sm hover:text-white">Contact</a>
+        </div>
+    </div>
 
 </body>
 </html>
